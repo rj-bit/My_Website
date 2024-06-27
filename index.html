@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .profile img {
+            border-radius: 50%;
+            width: 200px;
+            height: 200px;
+        }
+        nav {
+            background: #444;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+        main {
+            padding: 20px 0;
+        }
+        h2 {
+            color: #333;
+        }
+        .project-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .project {
+            background: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            flex: 1;
+            min-width: 250px;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 20px;
+        }
+        @media (max-width: 768px) {
+            .container {
+                width: 90%;
+            }
+            nav ul li {
+                display: block;
+                margin: 10px 0;
+            }
+            .project-list {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="profile">
+                <img src="./src/pic.png" alt="Profile Photo">
+                <h1>Rudranarayan Jena</h1>
+                <p>Cybersecurity Professional</p>
+            </div>
+        </div>
+    </header>
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <section id="about" class="container">
+            <h2>About Me</h2>
+            <p>Welcome to my portfolio. I am a cybersecurity professional passionate about vunerbility assesment, penetration testing, risk managemnet looking for a good job role in cyber security.</p>
+        </section>
+        <section id="skills" class="container">
+            <h2>Skills</h2>
+            <ul>
+                <li>Network Security</li>
+                <li>Vulnerability Assessment</li>
+                <li>Penetration Testing</li>
+                <li>Incident Response</li>
+                <li>Security Information and Event Management (SIEM)</li>
+                <li>Firewall and VPN Configuration</li>
+                <li>Cryptography</li>
+                <li>Risk Management</li>
+                <li>Bug Bounty</li>
+            </ul>
+        </section>
+        <section id="projects" class="container">
+            <h2>Projects</h2>
+            <div class="project-list">
+                <div class="project">
+                    <h3>Project 1: Network Penetration Test</h3>
+                    <p>Conducted a comprehensive penetration test on a corporate network, identifying and mitigating critical vulnerabilities.</p>
+                </div>
+                <div class="project">
+                    <h3>Project 2: Security Awareness Training</h3>
+                    <p>Developed and delivered a security awareness training program for employees, improving the organization's overall security posture.</p>
+                </div>
+                <div class="project">
+                    <h3>Project 3: Incident Response Plan</h3>
+                    <p>Created and implemented an incident response plan to quickly address and recover from security breaches and cyber attacks.</p>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="container">
+            <h2>Contact</h2>
+            <p>Email: rudra.kjr750@gmail.com</p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/rudranarayan-jena-a1a9b4203/" target="_blank">https://www.linkedin.com/in/rudranarayan-jena-a1a9b4203/</a></p>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 John Doe. All rights reserved.</p>
+        </div>
+    </footer>
+    <script>
+        // Placeholder for future JavaScript functionality
+    </script>
+</body>
+</html>
